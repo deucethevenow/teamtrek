@@ -1,0 +1,62 @@
+{
+  "name": "teamtrek",
+  "version": "1.0.0",
+  "description": "A gamified team step challenge platform that boosts productivity, builds culture, and gets your team moving.",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node dist/server.js",
+    "server": "tsx server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/teamtrek.git"
+  },
+  "keywords": [
+    "step-challenge",
+    "team-building",
+    "gamification",
+    "fitness",
+    "wellness",
+    "leaderboard",
+    "slack-bot",
+    "typescript",
+    "react",
+    "express",
+    "postgresql"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/teamtrek/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/teamtrek#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "lucide-react": "^0.460.0",
+    "path": "^0.12.7",
+    "pg": "^8.16.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.14.0",
+    "@types/pg": "^8.11.6",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

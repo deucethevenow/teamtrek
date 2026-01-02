@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "lib": ["ES2022"],
+    "skipLibCheck": true,
+    "types": ["node"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": ".",
+    "noEmit": false,
+    "allowJs": true,
+    "strict": false,
+    "noImplicitAny": false
+  },
+  "include": ["server.ts", "services/**/*.ts", "types.ts", "constants.ts"],
+  "exclude": ["node_modules", "dist", "components", "App.tsx", "index.tsx"]
+}
