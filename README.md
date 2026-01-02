@@ -48,7 +48,7 @@ Our team walked 2.4 million steps in December. That's 1,093 miles (NYC to Miami)
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/teamtrek.git
+git clone https://github.com/deucethevenow/teamtrek.git
 cd teamtrek
 npm install
 ```

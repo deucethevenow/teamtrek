@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/teamtrek.git"
+    "url": "git+https://github.com/deucethevenow/teamtrek.git"
   },
   "keywords": [
     "step-challenge",
@@ -31,9 +31,9 @@
   "author": "Your Name <your.email@example.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/teamtrek/issues"
+    "url": "https://github.com/deucethevenow/teamtrek/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/teamtrek#readme",
+  "homepage": "https://github.com/deucethevenow/teamtrek#readme",
   "engines": {
     "node": ">=18.0.0"
   },
