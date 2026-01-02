@@ -37,6 +37,29 @@ Our team walked 2.4 million steps in December. That's 1,093 miles (NYC to Miami)
 
 ---
 
+## ⚠️ Security Note
+
+**TeamTrek is designed for trusted internal teams and does not include authentication.**
+
+This means:
+- No user accounts or passwords
+- Anyone with the URL can view the leaderboard
+- Anyone can log steps for any participant
+- Data is essentially public within your network
+
+This was intentional—it's a fun, low-friction tool for teams that trust each other. If you need authentication, consider:
+
+| Option | Difficulty | Best For |
+|--------|------------|----------|
+| Put behind a VPN | Easy | Companies with existing VPN |
+| Reverse proxy with basic auth | Easy | Quick password protection |
+| Add Slack OAuth | Medium | Slack-first teams |
+| Add Google OAuth | Medium | Google Workspace orgs |
+
+**Do not deploy to the public internet without adding authentication.**
+
+---
+
 ## Quick Start
 
 ### Prerequisites
